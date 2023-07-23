@@ -1,5 +1,3 @@
-import React from "react";
-
 const Footer = () => {
   return (
     <div className="h-[40vh] w-full bg-black p-10 flex justify-between">

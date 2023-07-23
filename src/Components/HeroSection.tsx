@@ -3,9 +3,9 @@ import "../index.css";
 import { BsWindows, BsAndroid2 } from "react-icons/bs";
 const HeroSection = () => {
   return (
-    <div className="h-[calc(100vh-100px)] w-full flex">
-      <div className="w-[60%] flex justify-center items-start flex-col pl-10 gap-4">
-        <div className=" w-[80%] flex flex-col gap-10 font-monster">
+    <div className="h-max w-[95%] mx-auto flex pt-[90px]">
+      <div className="w-[80%] flex justify-center items-start flex-col pl-10 gap-4">
+        <div className=" w-[90%] flex flex-col gap-5 font-monster">
           <p className="text-[50px] tracking-tighter font-monster font-[700] text-balance leading-[60px]">
             Create the Most{" "}
             <span className="text-yellow-500">

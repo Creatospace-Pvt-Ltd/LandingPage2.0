@@ -34,7 +34,7 @@ const HeroSection = () => {
               <BsWindows />
             </p>
           </a>
-          <div className="w-[300px] h-[55px] flex justify-between items-center rounded-md gradientBorder p-2 cursor-pointer">
+          {/* <div className="w-[300px] h-[55px] flex justify-between items-center rounded-md gradientBorder p-2 cursor-pointer">
             {" "}
             <p className="w-[80%]">
               Download <span className="font-bold">Android</span> Application
@@ -42,7 +42,7 @@ const HeroSection = () => {
             <p className="text-[24px]">
               <BsAndroid2 />
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="flex justify-center items-center flex-grow">

@@ -1,12 +1,12 @@
 import logo from "../assets/Logo.png";
 const Navbar = () => {
   return (
-    <div className="h-[100px] bg-gradient-to-b from-black via-black/50 to-transparent flex items-start justify-between">
-      <div className="h-[60px]">
+    <div className="mx-20 h-[100px] bg-gradient-to-b from-black via-black/50 to-transparent flex items-start justify-between">
+      <div className="h-[60px] my-5">
         <img src={logo} alt="" className="h-full cursor-pointer" />
       </div>
-      <div className="w-max h-[60px] flex justify-end items-center pr-3 gap-2">
-        <div className="w-[110px] flex justify-center items-center h-full cursor-pointer flex-col relative group">
+      <div className="w-max h-[60px] flex justify-end my-5 items-center pr-3 gap-2">
+        {/* <div className="w-[110px] flex justify-center items-center h-full cursor-pointer flex-col relative group">
           <p>Home</p>
           <hr className="w-[0px]  absolute bottom-0 left-0 trasition-all duration-100 group-hover:w-full  group-hover:border border-blue-500" />
         </div>
@@ -21,7 +21,7 @@ const Navbar = () => {
         <div className="w-[110px] flex justify-center items-center h-full cursor-pointer flex-col relative group">
           <p>Pricing</p>
           <hr className="w-[0px]  absolute bottom-0 left-0 trasition-all duration-100 group-hover:w-full  group-hover:border border-blue-500" />
-        </div>
+        </div> */}
         <a
           href="https://beta.creatospace.com/login"
           className="w-[110px] flex justify-center items-center h-full cursor-pointer flex-col relative group"

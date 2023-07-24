@@ -28,8 +28,8 @@ const ThingsToDo = () => {
           <img src={girlImg} alt="" className="h-[90%]  object-cover" />
         </div>
 
-        <div className="w-full h-full flex max-w-[600px] flex-col items-center justify-center">
-          <div className="h-[80%] w-full flex gap-x-24 flex-wrap justify-center items-center ">
+        <div className="w-full h-full flex max-w-[600px] flex-col items-center justify-center p-2">
+          <div className="h-[80%] w-full flex gap-x-24 max-md:gap-x-2 gap-y-4 flex-wrap justify-center items-center p-2">
             <Card
               icon={<MdConnectWithoutContact />}
               text="Connect with other relevant people in the Metaverse"
@@ -53,7 +53,7 @@ const ThingsToDo = () => {
           </div>
           <a
             href="https://link.creatospace.com/windownload"
-            className="w-[80%] h-[55px] flex justify-between items-center rounded-md bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600  p-2 px-10 max-w-[500px] cursor-pointer my-2"
+            className="w-[90%]  h-[55px] flex justify-between items-center rounded-md bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600  p-2 px-10 max-w-[500px] cursor-pointer my-4"
           >
             {" "}
             <p className="w-[80%]">

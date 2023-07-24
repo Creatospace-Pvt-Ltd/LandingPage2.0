@@ -3,7 +3,7 @@ import "../index.css";
 import { BsWindows, BsAndroid2 } from "react-icons/bs";
 const HeroSection = () => {
   return (
-    <div className="h-max w-[95%] mx-auto flex pt-[90px]">
+    <div className="h-max w-[95%] my-20 mx-auto flex pt-[90px]">
       <div className="w-[80%] flex justify-center items-start flex-col pl-10 gap-4">
         <div className=" w-[90%] flex flex-col gap-5 font-monster">
           <p className="text-[50px] tracking-tighter font-monster font-[700] text-balance leading-[60px]">

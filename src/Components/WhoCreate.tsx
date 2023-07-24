@@ -10,21 +10,21 @@ interface CardProps {
 }
 const Card: React.FC<CardProps> = ({ icon, text }) => {
   return (
-    <div className="h-[300px] w-[200px] bg-gray-600 bg-opacity-50  rounded-md text-[60px] flex justify-center items-center flex-col gap-10">
+    <div className="h-[300px] w-[200px] max-md:w-[180px] bg-gray-600 bg-opacity-50  rounded-md text-[60px] flex justify-center items-center flex-col gap-10">
       {icon}
-      <p className="text-[20px] w-[100px] text-center font-semibold">{text}</p>
+      <p className="text-[20px] w-full text-center font-semibold ">{text}</p>
     </div>
   );
 };
 const WhoCreate = () => {
   return (
-    <div className="h-full w-full flex items-center flex-col gap-10 pb-24 ">
-      <div className="w-[50%] text-center">
-        <p className="font-monster text-4xl font-bold text-yellow-500">
+    <div className="h-max w-full flex items-center flex-col gap-10 pb-24 ">
+      <div className="w-[90%]  text-center">
+        <p className="font-monster text-4xl font-bold text-yellow-500 text-center w-full">
           Who should create communities in Creatospace?
         </p>
       </div>
-      <div className="flex w-full justify-evenly">
+      <div className="flex w-full justify-evenly flex-wrap gap-2 ">
         <Card icon={<BiSolidBusiness />} text="Business Owners" />
         <Card
           icon={<MdOutlineAdminPanelSettings />}
@@ -36,7 +36,7 @@ const WhoCreate = () => {
       </div>
       <a
         href="https://link.creatospace.com/windownload"
-        className="w-[40%] h-[55px] flex justify-between items-center rounded-md bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600  p-2 px-10 max-w-[500px] cursor-pointer mt-10"
+        className="w-[40%] max-sm:w-[90%]  h-[55px] flex justify-between items-center rounded-md bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600  p-2 px-10 max-w-[500px] cursor-pointer"
       >
         {" "}
         <p className="w-[80%]">

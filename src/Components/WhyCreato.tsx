@@ -28,7 +28,7 @@ const WhyCreato = () => {
   return (
     <div className="h-max flex  flex-col items-center gap-10 pb-16">
       <div>
-        <p className="font-monster text-4xl font-bold text-yellow-500">
+        <p className="font-monster text-4xl font-bold text-yellow-500 text-center">
           Why Creatospace?
         </p>
       </div>

@@ -17,16 +17,19 @@ const Card: React.FC<CardProps> = ({ text, icon }) => {
 };
 const ThingsToDo = () => {
   return (
-    <div className="h-full w-full flex items-center flex-col gap-10 pb-30">
-      <div>
+    <div className=" h-max w-full flex items-center flex-col gap-10 pb-30">
+      {/* <div>
         <p className="font-monster text-4xl font-bold text-yellow-500">
           What can I do in Creatospace
         </p>
-      </div>
-      <div className="w-full h-[85vh]  thingsToDoSectionBg flex justify-center items-center gap-10">
-        <img src={girlImg} alt="" className="h-[90%] object-cover" />
-        <div className="w-[50%] h-full flex max-w-[600px] flex-col items-center justify-center">
-          <div className="h-[80%] w-full flex gap-x-24 flex-wrap justify-center items-center">
+      </div> */}
+      <div className="w-full h-max min-h-[85vh]  thingsToDoSectionBg flex justify-center items-center gap-10 flex-wrap ">
+        <div className="flex h-full p-4">
+          <img src={girlImg} alt="" className="h-[90%]  object-cover" />
+        </div>
+
+        <div className="w-full h-full flex max-w-[600px] flex-col items-center justify-center">
+          <div className="h-[80%] w-full flex gap-x-24 flex-wrap justify-center items-center ">
             <Card
               icon={<MdConnectWithoutContact />}
               text="Connect with other relevant people in the Metaverse"
@@ -50,7 +53,7 @@ const ThingsToDo = () => {
           </div>
           <a
             href="https://link.creatospace.com/windownload"
-            className="w-[80%] h-[55px] flex justify-between items-center rounded-md bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600  p-2 px-10 max-w-[500px] cursor-pointer"
+            className="w-[80%] h-[55px] flex justify-between items-center rounded-md bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600  p-2 px-10 max-w-[500px] cursor-pointer my-2"
           >
             {" "}
             <p className="w-[80%]">

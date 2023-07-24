@@ -24,12 +24,12 @@ const HeroSection = () => {
           <div className="flex flex-col gap-2 max-sm:hidden">
             <a
               href="https://link.creatospace.com/windownload"
-              className="w-[300px] h-[55px] max-md:w-[250px ] flex justify-between items-center rounded-md bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600  p-2 cursor-pointer"
+              className="w-[300px] h-[55px] max-md:w-max flex justify-between items-center rounded-md bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600  p-4 cursor-pointer"
             >
-              <p className="w-[80%] max-md:text-sm max-md:w-[90%]">
+              <p className="w-[80%] text-md max-md:text-sm max-md:w-[90%]">
                 Download <span className="font-bold">Windows(x64)</span>{" "}
               </p>
-              <p className="max-md:text-md">
+              <p className="max-md:text-md text-xl">
                 <BsWindows />
               </p>
             </a>

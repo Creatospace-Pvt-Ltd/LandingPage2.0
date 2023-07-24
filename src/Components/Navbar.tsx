@@ -1,7 +1,7 @@
 import logo from "../assets/Logo.png";
 const Navbar = () => {
   return (
-    <div className="h-[100px] w-full bg-gradient-to-b from-black via-black/80 to-transparent flex items-start justify-between fixed top-0 px-10 max-md:px-4">
+    <div className="h-[100px] w-full bg-gradient-to-b from-black via-black/80 to-transparent flex items-start justify-between fixed top-0 px-10 max-md:px-4 z-50">
       <div className="h-[60px] max-sm:h-[55px]">
         <img src={logo} alt="" className="h-full cursor-pointer" />
       </div>

@@ -26,13 +26,13 @@ const Card: React.FC<CardProps> = ({ src, title, text }) => {
 };
 const WhyCreato = () => {
   return (
-    <div className="h-full flex  flex-col items-center gap-10 pb-16">
+    <div className="h-max flex  flex-col items-center gap-10 pb-16">
       <div>
         <p className="font-monster text-4xl font-bold text-yellow-500">
           Why Creatospace?
         </p>
       </div>
-      <div className="w-full flex justify-center gap-16">
+      <div className="w-full flex justify-center gap-16 flex-wrap">
         <Card
           src={cardImg1}
           title="Creative Experience"
@@ -51,7 +51,7 @@ const WhyCreato = () => {
       </div>
       <a
         href="https://link.creatospace.com/windownload"
-        className="w-[40%] h-[55px] flex justify-between items-center rounded-md bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600  p-2 px-10 max-w-[500px] cursor-pointer"
+        className="w-[40%] max-sm:w-[90%]  h-[55px] flex justify-between items-center rounded-md bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600  p-2 px-10 max-w-[500px] cursor-pointer"
       >
         {" "}
         <p className="w-[80%]">

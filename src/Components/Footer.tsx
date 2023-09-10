@@ -9,6 +9,12 @@ const Footer = () => {
           Creatospace Pvt Ltd.
         </p>
         <p className="text-white/50 mb-2 max-sm:text-xs">
+        <strong>Office Address</strong>
+        Creatospace Pvt. Ltd.
+        Plot No.-951/1561, Phase-II, Bhagabat Sandhan, GGP, Rasulgarh, Khordha, 
+        Bhubaneswar, Odisha 751010
+        </p>
+        <p className="text-white/50 mb-2 max-sm:text-xs">
           B-41, 4th Floor, Gate No.-3, Freedom Fighter Enclave, IGNOU Road,
           Saket, New Delhi-110068
         </p>

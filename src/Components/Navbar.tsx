@@ -7,6 +7,13 @@ const Navbar = () => {
       </div>
       <div className="w-max h-[60px] flex justify-end items-center pr-3 gap-2 max-sm:h-[55px]">
         <a
+          href="https://beta.creatospace.com/refundpolicy"
+          className="w-[110px] max-md:w-max flex justify-center items-center h-full cursor-pointer flex-col relative group"
+        >
+          <p>Refund Policy</p>
+          <hr className="w-[0px]  absolute bottom-0 left-0 trasition-all duration-100 group-hover:w-full  group-hover:border border-blue-500" />
+        </a>
+        <a
           href="https://beta.creatospace.com/login"
           className="w-[110px] max-md:w-max flex justify-center items-center h-full cursor-pointer flex-col relative group"
         >

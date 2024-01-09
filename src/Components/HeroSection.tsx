@@ -1,6 +1,6 @@
 import gif from "../assets/anim.gif";
 import "../index.css";
-import { BsWindows } from "react-icons/bs";
+import { BsAndroid2, BsWindows } from "react-icons/bs";
 const HeroSection = () => {
   return (
     <section className="flex flex-col items-center">
@@ -27,10 +27,21 @@ const HeroSection = () => {
               className="w-[300px] h-[55px] max-md:w-max flex justify-between items-center rounded-md bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600  p-4 cursor-pointer"
             >
               <p className="w-[80%] text-md max-md:text-sm max-md:w-[90%]">
-                Download <span className="font-bold">Windows(x64)</span>{" "}
+                Download for <span className="font-bold">Windows(x64)</span>{" "}
               </p>
               <p className="max-md:text-md text-xl">
                 <BsWindows />
+              </p>
+            </a>
+            <a
+              href="https://link.creatospace.com/playstore"
+              className="w-[300px] h-[55px] max-md:w-max flex justify-between items-center rounded-md bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 p-4 cursor-pointer"
+            >
+              <p className="w-[80%] text-md max-md:text-sm max-md:w-[90%]">
+                Download for <span className="font-bold">Android</span>{" "}
+              </p>
+              <p className="max-md:text-md text-xl">
+                <BsAndroid2 />
               </p>
             </a>
           </div>
@@ -49,6 +60,17 @@ const HeroSection = () => {
           </p>
           <p className="max-md:text-md">
             <BsWindows />
+          </p>
+        </a>
+        <a
+          href="https://link.creatospace.com/playstore"
+          className="w-[300px] h-[55px] max-md:w-[250px ] flex justify-between items-center rounded-md bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600  p-2 cursor-pointer"
+        >
+          <p className="w-[80%] max-md:text-sm max-md:w-[90%]">
+            Download <span className="font-bold">Android</span> Application
+          </p>
+          <p className="max-md:text-md">
+            <BsAndroid2 />
           </p>
         </a>
       </div>

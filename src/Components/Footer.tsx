@@ -37,12 +37,12 @@ const Footer = () => {
         </a>
       </div>
       <div className="h-full w-[20%] flex flex-col items-start gap-3 text-md max-sm:text-sm">
-        <p className="cursor-pointer hover:text-white/70">Privacy Policy</p>
-        <p className="cursor-pointer hover:text-white/70">Terms & Conditions</p>
-        <p className="cursor-pointer hover:text-white/70">
+        <a href="https://beta.creatospace.com/privacy-policy" className="cursor-pointer hover:text-white/70">Privacy Policy</a>
+        <a href="https://beta.creatospace.com/terms" className="cursor-pointer hover:text-white/70">Terms & Conditions</a>
+        <a href="https://beta.creatospace.com/refundpolicy" className="cursor-pointer hover:text-white/70">
           Refund & Cancellation Policy
-        </p>
-        <p className="cursor-pointer hover:text-white/70">Support</p>
+        </a>
+        <a href="https://beta.creatospace.com/support" className="cursor-pointer hover:text-white/70">Support</a>
       </div>
     </div>
   );

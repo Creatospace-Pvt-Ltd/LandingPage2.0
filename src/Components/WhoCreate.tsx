@@ -2,7 +2,7 @@ import React, { ReactNode } from "react";
 import { BiSolidBusiness } from "react-icons/Bi";
 import { MdOutlineAdminPanelSettings } from "react-icons/md";
 import { FaUserTie } from "react-icons/fa";
-import { BsFillCameraReelsFill, BsWindows } from "react-icons/bs";
+import { BsAndroid2, BsFillCameraReelsFill, BsWindows } from "react-icons/bs";
 import { HiSpeakerphone } from "react-icons/hi";
 interface CardProps {
   icon: ReactNode;
@@ -44,6 +44,18 @@ const WhoCreate = () => {
         </p>
         <p className="text-[24px]">
           <BsWindows />
+        </p>
+      </a>
+      <a
+        href="https://link.creatospace.com/playstore"
+        className="w-[40%] max-sm:w-[90%]  h-[55px] flex justify-between items-center rounded-md bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600  p-2 px-10 max-w-[500px] cursor-pointer"
+      >
+        {" "}
+        <p className="w-[80%]">
+          Download <span className="font-bold">Android</span> Application
+        </p>
+        <p className="text-[24px]">
+          <BsAndroid2 />
         </p>
       </a>
     </div>
